@@ -1,1 +1,1 @@
-This Repository is about Practice of Python in a fun way by solving complex problem. 
+This Repository is about Practicing of Python in a fun way by solving complex problem. 
