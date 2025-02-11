@@ -1,27 +1,28 @@
 class Data_Types_Premitive{
     public static void main(String args[]){
-        int aJJ=123;
-        long ab=12888999999l;
-        System.out.println(aJJ);
-        System.out.println(ab);
+        int num=123456789;
+        long num_long=12888999999l;
+        System.out.println(num);
+        System.out.println(num_long);
         
 
-        float ac=123.789f;
-        double sDD=123.22;
-        System.out.println(ac);
-        System.out.println(sDD);
+        float decimal_num=123.789f;
+        double decimal_double=123.22;
+        System.out.println(decimal_num);
+        System.out.println(decimal_double);
         
-        boolean aaaj=true;
-        char a= 's';
-        byte aj= -128;
-        String aLLT="a";
-        System.out.println( a + aj + aLLT + aaaj );
+        boolean boolean_value=true;
+        char ch= 'S';
+        byte byte_value= -128;
+        String str="aaj tak tv";
+        System.out.println(" "+  ch +"   "+ byte_value +"  " + str + "  "+ boolean_value);
         
-        //Type Casting
-        int n1= (int)sDD;
-        double n2= aJJ;
+        //Type Casting 1.Implicit(meaning that the compiler will handle it)
+        //2.Explicit(meaning that you need to handle it)
+        int n1= (int)num_long;  //Explicit Casting (long → int)(Narrowing)(Data loss)
+        double n2= num;    //Implicit Casting (int → double)(Widening)(No Data loss)
         System.out.println(n1);
         System.out.println(n2);
-        System.out.println(aj);
+        System.out.println();
     }
 }
