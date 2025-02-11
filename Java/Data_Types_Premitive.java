@@ -1,4 +1,4 @@
-class demo{
+class Data_Types_Premitive{
     public static void main(String args[]){
         int aJJ=123;
         long ab=12888999999l;
