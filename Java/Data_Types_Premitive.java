@@ -23,6 +23,6 @@ class Data_Types_Premitive{
         double n2= num;    //Implicit Casting (int → double)(Widening)(No Data loss)
         System.out.println(n1);
         System.out.println(n2);
-        System.out.println();
+        System.out.println("The Data type Operations are learned");
     }
 }
