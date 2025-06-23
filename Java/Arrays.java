@@ -3,7 +3,7 @@ public class Arrays {
         //There are three ways to create an array in Java along with diff data types
         //1-> Declaration and memory allocation
         // int [] marks1;            //Declaration of a reference variable of integer array
-        // marks = new int[5];     //Memory allocated for 5 integers
+        // marks1 = new int[5];     //Memory allocated for 5 integers
         // marks1[0] = 1;
         // marks1[1] = 11;
         // marks1[2] = 12;

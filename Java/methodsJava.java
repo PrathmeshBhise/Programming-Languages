@@ -63,7 +63,7 @@ class methodsJava{
     // }
 
     // //Sum of n Natural Numbers
-    // static int  sumRec(int n){
+    // static int sumRec(int n){
     //     if (n==1){
     //         return n;
     //     }

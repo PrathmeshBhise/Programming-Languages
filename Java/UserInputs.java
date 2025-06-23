@@ -11,7 +11,7 @@ public class UserInputs{
             System.out.println("The string is:" + str);
 
             sc.nextLine(); //to clear the buffer 
-            //here if you use an sentence string only take the fisrt word and remaining words are in buffer
+            //here if you use an sentence, string only take the fisrt word and remaining words will be in buffer
 
             System.out.println("Enter the sentence :");
             String sentence=sc.nextLine(); //for sentence input

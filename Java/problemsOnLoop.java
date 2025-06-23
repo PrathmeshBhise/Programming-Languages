@@ -70,6 +70,7 @@ public class problemsOnLoop {
         //         System.out.println(("The tax you need to pay is :"+tax));
         //     }
         //     else if(salary>=500000 && salary<1000000){
+                    //here why 25k beacuse if salary >50 we dont need to pay for first 25k but after 25k to 50k i.e 25k 5% tax is there that's why!
         //         tax=tax +  (((250000)*5)/100) + (((salary-500000)*20)/100);
         //         System.out.println(("The tax you need to pay is :"+tax));
         //     }
@@ -100,11 +101,14 @@ public class problemsOnLoop {
         // try(Scanner sc = new Scanner(System.in)){
         //     System.out.print("Enter The Year :");
         //     int year= sc.nextInt();
-        //     if (( year&4)==0){
+        //     if (( year%4)==0){
         //         System.out.println("The Year is Leap Year !");
         //     }
         //     else if (year%400==0){
         //         System.out.println("The Year is Leap Year !");
+        //         } 
+        //     else if (year % 100 == 0) {
+        //         System.out.println("The Year is not a Leap Year!");
         //     }
         //     else{
         //         System.out.println("The Year is not a Leap Year !");
@@ -129,9 +133,9 @@ public class problemsOnLoop {
         //     }
         // }
 
-        //5-> Odd Number and Evem Number printer
+        //5-> Odd Number and Evem Numbers printer
         // try(Scanner sc = new Scanner(System.in)){
-        //     System.out.print("Enter The Number :");
+        //     System.out.print("Enter The No of Numbers :");
         //     int n = sc.nextInt();
         //     for ( int i =0 ; i<=n ; i++){
         //         System.out.println("Odd Number is  :" + (2*i+1));
