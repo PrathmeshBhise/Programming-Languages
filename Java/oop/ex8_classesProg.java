@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class employee{
+class employee11{
     public int salary;
     public String name;
 
@@ -25,8 +25,7 @@ class employee{
     public String changeN(){
         try(Scanner sc = new Scanner(System.in) ){
             System.out.print("--Enter the new name of employee :");
-            String n1= sc.nextLine();
-            name=n1;
+            name= sc.nextLine();
             return name;
         }
     }
@@ -52,14 +51,14 @@ class Rectangle{
     }
 
 }
-class circle{
+class circle1{
     private int radius;
     private final float  pi=3.14f;
-    public float setarea(int r){
+    public float set_area(int r){
         radius=r;
         return pi*(radius*radius);
     }
-    public float setperimeter(int r){
+    public float set_perimeter(int r){
         radius=r;
         return 2*(pi*radius);
     }
@@ -70,7 +69,7 @@ class circle{
 
 public class ex8_classesProg {
     public static void main(String[] args) {
-        employee obj = new employee();
+        employee11 obj = new employee11();
         obj.name="Om";
         // obj.salary=007;
         // obj.getName();
@@ -93,9 +92,9 @@ public class ex8_classesProg {
         System.out.println("The Perimeter RC is :"+obj2.perimeter());
 
         //Using circle
-        circle c = new circle();
-        System.out.println(c.setarea(15));
-        System.out.println(c.setperimeter(15));
+        circle1 c = new circle1();
+        System.out.println(c.set_area(15));
+        System.out.println(c.set_perimeter(15));
         
         
 
